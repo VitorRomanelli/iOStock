@@ -1,0 +1,148 @@
+#stock-register-page {
+    width: 100vw;
+    height: 100vh;
+}
+
+#stock-register-page main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#stock-register-page main h1 {
+    margin-top: 64px;
+
+    font-family: Nunito, sans-serif;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 70px;
+
+    color: #6271FF;
+}
+
+#stock-register-page main p{
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+
+    margin-top: 10px;
+
+    color: #62a6ff;
+}
+
+#stock-register-page main form{
+    width: 700px;
+    margin: 58px auto;
+
+    background: #FFFFFF;
+    border: 1px solid #D3E2E5;
+    border-radius: 20px;
+
+    padding: 56px 80px;
+
+    overflow: hidden;
+}
+
+#stock-register-page main form select{
+    display: block;
+
+    width: 100%;
+    height: 42px;
+
+    margin: 10px;
+    padding: 12px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color:#eee;
+
+}
+
+
+#stock-register-page label {
+    display: flex;
+    color: #8FA7B3;
+    margin-bottom: 8px;
+    line-height: 24px;
+}
+
+#stock-register-page main button {
+    margin-top: 24px;
+
+    width: 100%;
+    height: 64px;
+    border: 0;
+    cursor: pointer;
+    background: #3CDC8C;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 800;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.2s;
+}
+
+#stock-register-page main button:hover {
+    background: #36CF82;
+}
+
+@media (max-width: 1100px){
+
+    #stock-register-page main {
+        padding-top: 100px;
+
+        height: 100%;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    #stock-register-page main h1 {
+        font-size: 40px;
+    }
+
+    #stock-register-page main form{
+        width: 100%;
+        height: auto;
+
+        margin: 52px auto;
+    
+        background: #FFFFFF;
+        border: 1px solid #D3E2E5;
+        border-radius: 20px;
+    
+        padding: 64px;
+        
+        margin: 0;
+
+        overflow: hidden;
+    }
+
+    #stock-register-page aside.app-sidebar {
+        width: 100%;
+        height: 42px;
+    }
+
+    #stock-register-page aside.app-sidebar footer{
+        margin: 0;
+        padding: 0; 
+        
+        width: 100%;
+        height: 100%;
+
+        margin-top: 20px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #stock-register-page aside.app-sidebar footer #back{
+        display: flex;
+        position: static;
+    }
+}

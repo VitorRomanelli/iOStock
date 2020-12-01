@@ -1,0 +1,51 @@
+.side-bar aside.app-sidebar {
+    position: fixed;
+    height: 100%;
+    padding: 32px 24px;
+    background: linear-gradient(208.27deg, #4d25d1 0%, #6229ff 95.3%);
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.side-bar aside.app-sidebar footer a,
+.side-bar aside.app-sidebar footer button {
+    width: 48px;
+    height: 48px;
+  
+    border: 0;
+  
+    background: linear-gradient(208.27deg, #6229ff 0%, #6271FF 95.3%);
+    border-radius: 16px;
+  
+    cursor: pointer;
+  
+    transition: background-color 0.2s;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+.side-bar aside.app-sidebar footer #back {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+}
+
+.side-bar aside.app-sidebar footer #back button {
+    background: #6229ff;
+}
+
+.side-bar aside.app-sidebar footer #back button:hover {
+    background: #4d25d1;
+}
+
+.side-bar aside.app-sidebar footer a:hover,
+.side-bar aside.app-sidebar footer button:hover {
+    background: #6271FF;
+}

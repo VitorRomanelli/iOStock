@@ -1,0 +1,76 @@
+#landing-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(208.27deg, #8629ff 0%, #4d25d1 95.3%);
+}
+
+#landing-page img {
+    width: 350px;
+
+    padding: 20px;
+}
+
+#landing-page h1 {
+    font-family: Nunito, sans-serif;
+    font-size: 4em;
+    font-weight: 900;
+
+    margin: 20px;
+}
+
+#landing-page .GoLogInPage {
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+
+    width: 110px;
+    height: 64px;
+  
+    border: 0;
+  
+    background: #dcd93c;
+    border-radius: 16px;
+  
+    cursor: pointer;
+  
+    transition: background-color 0.2s;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.5s;
+}
+
+#landing-page .GoLogInPage:hover {
+    background: #4d25d1;
+}
+
+@media(max-width: 1000px){
+    #landing-page img {
+        margin: 0;
+        padding: 0;
+
+        width: 40%;
+
+    }
+    #landing-page h1 {
+        font-size: 3rem;
+    }
+    #landing-page .GoLogInPage {
+        position: static;
+
+        min-height: 20px;
+
+        width: 90%;
+
+        margin-top: 40%;
+        margin-bottom: 10%;
+    }    
+}
